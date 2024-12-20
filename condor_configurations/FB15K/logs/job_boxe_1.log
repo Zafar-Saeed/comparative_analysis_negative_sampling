@@ -1,0 +1,63 @@
+000 (34286391.000.000) 2024-10-28 13:04:06 Job submitted from host: <90.147.169.224:9618?addrs=90.147.169.224-9618&alias=ettore.recas.ba.infn.it&noUDP&sock=schedd_7750_6f11>
+...
+001 (34286391.000.000) 2024-10-28 13:04:28 Job executing on host: <90.147.169.153:9618?addrs=90.147.169.153-9618&alias=wn-gpu-7-7-28.recas.ba.infn.it&noUDP&sock=startd_4875_6c49>
+...
+006 (34286391.000.000) 2024-10-28 13:04:36 Image size of job updated: 169460
+	71  -  MemoryUsage of job (MB)
+	71872  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 13:09:36 Image size of job updated: 4209256
+	839  -  MemoryUsage of job (MB)
+	858236  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 13:19:37 Image size of job updated: 4209256
+	839  -  MemoryUsage of job (MB)
+	858820  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 13:44:39 Image size of job updated: 4209648
+	840  -  MemoryUsage of job (MB)
+	859556  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 13:49:40 Image size of job updated: 4209648
+	842  -  MemoryUsage of job (MB)
+	861252  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 14:04:41 Image size of job updated: 4992628
+	1308  -  MemoryUsage of job (MB)
+	1338452  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 14:09:41 Image size of job updated: 4992628
+	1330  -  MemoryUsage of job (MB)
+	1360980  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 14:14:41 Image size of job updated: 4992628
+	1576  -  MemoryUsage of job (MB)
+	1612884  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 14:19:42 Image size of job updated: 4992628
+	1580  -  MemoryUsage of job (MB)
+	1616980  -  ResidentSetSize of job (KB)
+...
+006 (34286391.000.000) 2024-10-28 14:29:43 Image size of job updated: 4992628
+	1605  -  MemoryUsage of job (MB)
+	1643088  -  ResidentSetSize of job (KB)
+...
+005 (34286391.000.000) 2024-10-28 15:20:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:56:49, Sys 0 00:18:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:56:49, Sys 0 00:18:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :     1           1   2005956 
+	   Gpus (Average)       :                 1         1 "GPU-95d5c6c6"
+	   GpusMemory (MB)      :   579                       
+	   Memory (MB)          :  1605        8192      8192 
+
+	Job terminated of its own accord at 2024-10-28T14:20:39Z.
+...

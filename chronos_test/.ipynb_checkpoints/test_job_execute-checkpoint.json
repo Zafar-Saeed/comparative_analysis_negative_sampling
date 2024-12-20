@@ -1,0 +1,22 @@
+{
+  "name": "zafarsaeed-chronosh-test",
+  "command": "execute_job.sh",
+  "shell": true,
+  "schedule": "R1//P1Y",
+  "retries": 5,
+  "description": "",
+  "cpus": 1,
+  "disk": 0,
+  "mem": 16024,
+  "gpus": 1,
+  "environmentVariables": [],
+  "arguments": [],
+  "runAsUser": "zafarsaeed",
+  "owner": "zafarsaeed",
+  "ownerName": "zafarsaeed",
+  "container": {
+    "type": "mesos",
+    "image": "nvidia/cuda:12.4.0-base-ubuntu22.04",
+    "volumes": [{"containerPath": "/lustrehome/zafarsaeed", "hostPath": "/lustrehome/zafarsaeed", "mode": "RW"}]
+  }
+}

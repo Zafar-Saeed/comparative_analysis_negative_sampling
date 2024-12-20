@@ -1,0 +1,8 @@
+{
+"model.embedding_dim": [32, 64, 128],
+"model.scoring_fct_norm": [1, 2],
+"loss.margin": [1.0],
+"optimizer.lr": [1.0e-03],
+"training.num_epochs": [100],
+"training.batch_size": [64,128,256,512]
+}

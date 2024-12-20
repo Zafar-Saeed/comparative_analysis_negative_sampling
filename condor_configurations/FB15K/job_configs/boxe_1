@@ -1,0 +1,11 @@
+universe = vanilla
+    executable = execute_job.sh
+    arguments = experiment_specs ./data boxe_1 FB15K
+    output = ./FB15K/logs/job_boxe_1.out
+    error = ./FB15K/logs/job_boxe_1.error
+    log = ./FB15K/logs/job_boxe_1.log
+    request_cpus = 1
+    request_gpus = 1
+    request_memory = 8 GB
+    rank = Memory
+    queue

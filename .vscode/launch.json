@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            // "module": "TestingPyKeen",
+            "module": "run_experiments",
+            // "module": "experiment_runner",
+            // "module": "experiment_manager",
+            // "module": "experiment_manager_MT",
+            "args": ["experiment_specs", "./data/", "transe_100", "WN18"],
+            // "args": ["./data/", "transe_1"], // FOR KGE-RL exinting code
+            "justMyCode": false
+        }
+    ]
+}

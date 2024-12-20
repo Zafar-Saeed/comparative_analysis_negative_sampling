@@ -1,0 +1,34 @@
+Starting eperiment for:
+	Experiment config. path:  experiment_specs
+	Data path:  ./data
+	Experiment name:  simple_1
+	Dataset name:  kinships
+**********************************************
+Process Number: 55145 for experiment: 
+	Dataset: kinships, Model: simple, Num. of Negs: 1
+**** Dumping Json file: simple_1_config.json ****
+Loading dataset for reusable code..
+CUDA is available: False
+Loading training tripples..
+Loading validation tripples..
+Loading test tripples..
+Building simple model...
+Auxiliary Sampler:
+	Neg. Sampler: Random, num_samples: 1, filtered: False
+Primary Sampler:
+	Neg. Sampler: Corrupt, num_samples: 1, filtered: True
+***Training Started*** 	 Time: 2024-10-04 15:48:56.401032
+***Training Comlpeted*** 	 Time: 2024-10-04 15:49:04.627393
+Writing trained model to directory: ./data/results/kinships/corrupt
+**** Dumping Json file: simple_1_losses.json ****
+Model size in memory: 103200
+***Evaluation Started (*** 	 Time: 2024-10-04 15:49:05.007251
+***Evaluation Ended (*** 	 Time: 2024-10-04 15:49:05.242094
+**** Dumping Json file: simple_1_metrics.json ****
+**** Dumping Json file: simple_1_metrics_hit_mrr.json ****
+Hits@1:  0.0335195530726257
+Hits@3:  0.09031657355679702
+Hits@5:  0.13919925512104284
+Hits@10:  0.24534450651769088
+Mean Reciprocal Rank:  0.10913237184286118
+<pykeen.evaluation.rank_based_evaluator.RankBasedMetricResults object at 0x2ab888411660>

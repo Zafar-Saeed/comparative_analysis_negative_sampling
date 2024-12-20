@@ -1,0 +1,33 @@
+Starting eperiment for:
+	Experiment config. path:  experiment_specs
+	Data path:  ./data
+	Experiment name:  boxe_1
+	Dataset name:  FB15K
+**********************************************
+Process Number: 226117 for experiment: 
+	Dataset: FB15K, Model: boxe, Num. of Negs: 1
+**** Dumping Json file: boxe_1_config.json ****
+Loading dataset for reusable code..
+CUDA is available: False
+Loading training tripples..
+Loading validation tripples..
+Loading test tripples..
+Building boxe model...
+Loading negative sampler...
+Initializing RESCAL model
+	Neg. Sampler: Adversarial, num_samples: 1, filtered: True
+***Training Started*** 	 Time: 2024-10-28 13:05:39.137674
+***Training Comlpeted*** 	 Time: 2024-10-28 14:02:50.764789
+Writing trained model to directory: ./data/results/FB15K/adversarial
+**** Dumping Json file: boxe_1_losses.json ****
+Model size in memory: 14123560
+***Evaluation Started (*** 	 Time: 2024-10-28 14:03:14.386926
+***Evaluation Ended (*** 	 Time: 2024-10-28 15:20:29.797216
+**** Dumping Json file: boxe_1_metrics.json ****
+**** Dumping Json file: boxe_1_metrics_hit_mrr.json ****
+Hits@1:  0.028279528025596315
+Hits@3:  0.035719727108056404
+Hits@5:  0.04113693690643463
+Hits@10:  0.05117570381405427
+Mean Reciprocal Rank:  0.03631366416811943
+<pykeen.evaluation.rank_based_evaluator.RankBasedMetricResults object at 0x2b1182e27160>

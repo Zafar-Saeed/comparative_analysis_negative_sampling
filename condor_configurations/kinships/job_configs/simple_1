@@ -1,0 +1,11 @@
+universe = vanilla
+    executable = execute_job.sh
+    arguments = experiment_specs ./data simple_1 kinships
+    output = ./kinships/logs/job_simple_1.out
+    error = ./kinships/logs/job_simple_1.error
+    log = ./kinships/logs/job_simple_1.log
+    request_cpus = 1
+    request_gpus = 1
+    request_memory = 8 GB
+    rank = Memory
+    queue

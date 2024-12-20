@@ -1,0 +1,34 @@
+Starting eperiment for:
+	Experiment config. path:  experiment_specs
+	Data path:  ./data
+	Experiment name:  transd_1
+	Dataset name:  kinships
+**********************************************
+Process Number: 55144 for experiment: 
+	Dataset: kinships, Model: transd, Num. of Negs: 1
+**** Dumping Json file: transd_1_config.json ****
+Loading dataset for reusable code..
+CUDA is available: False
+Loading training tripples..
+Loading validation tripples..
+Loading test tripples..
+Building transd model...
+Auxiliary Sampler:
+	Neg. Sampler: Random, num_samples: 1, filtered: False
+Primary Sampler:
+	Neg. Sampler: Corrupt, num_samples: 1, filtered: True
+***Training Started*** 	 Time: 2024-10-04 15:48:56.418384
+***Training Comlpeted*** 	 Time: 2024-10-04 15:49:05.466860
+Writing trained model to directory: ./data/results/kinships/corrupt
+**** Dumping Json file: transd_1_losses.json ****
+Model size in memory: 103200
+***Evaluation Started (*** 	 Time: 2024-10-04 15:49:05.760695
+***Evaluation Ended (*** 	 Time: 2024-10-04 15:49:06.277699
+**** Dumping Json file: transd_1_metrics.json ****
+**** Dumping Json file: transd_1_metrics_hit_mrr.json ****
+Hits@1:  0.01722532588454376
+Hits@3:  0.1084729981378026
+Hits@5:  0.18435754189944134
+Hits@10:  0.3100558659217877
+Mean Reciprocal Rank:  0.11574753373861313
+<pykeen.evaluation.rank_based_evaluator.RankBasedMetricResults object at 0x2b1538855690>

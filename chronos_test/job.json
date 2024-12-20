@@ -1,0 +1,23 @@
+{
+  "name": "zafarsaeed-chronosh-test",
+  "command": "pwd",
+  "shell": true,
+  "schedule": "R1//P1Y",
+  "retries": 0,
+  "description": "",
+  "cpus": 1,
+  "disk": 0,
+  "mem": 16024,
+  "gpus": 1,
+  "environmentVariables": [],
+  "arguments": [],
+  "runAsUser": "zafarsaeed",
+  "owner": "zafarsaeed",
+  "ownerName": "zafarsaeed",
+  "container": {
+    "forcePullImage": true,
+    "type": "mesos",
+    "image": "nvidia/cuda:12.6.2-cudnn-devel-ubi9",
+    "volumes": [{"containerPath": "/lustrehome/zafarsaeed", "hostPath": "/lustrehome/zafarsaeed", "mode": "RW"}]
+  }
+}
